@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 #icon, .navbar-brand{
+    font-family: roboto;
     color: #fff;
     font-weight: 700;
+    margin-left: 43px;
+    letter-spacing: 1px;
+    font-size: 25px;
 }
 
 .navbar-brand:hover{
@@ -8,7 +14,8 @@
 }
 
 .nav-link, #h{
-    color: rgba(255, 255, 255, 0.664);
+    /* color: rgba(255, 255, 255, 0.664); */
+    color: #fff; ;
     text-decoration: none !important;
     border: none;
 }
@@ -22,7 +29,24 @@ a{
 }
 
 #nav{
+  
     background-color: transparent;
     backdrop-filter: blur(10px);
 }
-
+.navbar-nav{
+    margin-left : 950px;
+}
+.nav-item{
+    padding-left: 20px;
+    font-size: 20px;
+}
+@media screen and (max-width: 992px){
+    #icon, .navbar-brand{
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        margin-left : 0px;
+        padding-left: 0px;
+    }
+}
+    

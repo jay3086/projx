@@ -6,14 +6,9 @@ const Navbarr = () => {
   return (
     <nav id="nav" className="navbar navbar-expand-lg fixed-top">
       <div id="text" className="container-fluid">
-        <img
-          src={Logo}
-          alt=""
-          width="50px"
-          className="d-inline-block align-text-top me-2"
-        />
+       
         <a className="navbar-brand" href="#">
-          Study Buddy
+          STUDY BUDDY
         </a>
         <button
           className="navbar-toggler"
@@ -82,7 +77,7 @@ const Navbarr = () => {
               </ul>
             </li>
           </ul>
-          <form className="d-flex">
+          {/* <form className="d-flex">
             <input
               className="form-control me-2"
               type="search"
@@ -92,7 +87,7 @@ const Navbarr = () => {
             <button className="btn btn-outline-light" type="submit">
               Search
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </nav>

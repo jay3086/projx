@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .container{
     margin-top: 5rem;
 }
 
 .img{
     margin-top: -5rem;
+    
+   
 }
 
 .foot{
@@ -23,13 +26,18 @@
 }
 
 .text-content > h1, h3{
+    font-size: 40px;
     font-weight: 900;
     text-shadow: 0 0 3px #0000;
     background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85);
     background-size: 400%;
+    font-family: roboto;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: animate 10s linear infinite;
+}
+.text-content > h1{
+    font-size: 50px;
 }
 
 @keyframes animate{
@@ -45,4 +53,11 @@
     margin-top: 3rem;
     line-height: 2;
     color: rgba(255, 255, 255, 0.61);
+    font-size: 20px;
+}
+.row{
+    margin-top: 7rem;
+    justify-content: center;
+    align-items: center;
+   
 }
